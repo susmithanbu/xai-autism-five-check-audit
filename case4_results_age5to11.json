@@ -1,0 +1,104 @@
+{
+  "n_children_test": 78,
+  "domains": [
+    "upper_limb",
+    "lower_limb",
+    "trunk_head",
+    "whole_body"
+  ],
+  "domain_sizes": [
+    342,
+    180,
+    72,
+    528
+  ],
+  "check1": {
+    "BA": 0.8877005347593583,
+    "AUC": 0.9435160427807486,
+    "perm_chance": 0.49917906493111697,
+    "perm_p": 0.009900990099009901
+  },
+  "baseline_age_sex": {
+    "BA": 0.588903743315508,
+    "AUC": 0.5116978609625669,
+    "perm_chance": 0.49797209391156044,
+    "perm_p": 0.04950495049504951
+  },
+  "baseline_geometry_only": {
+    "BA": 0.8763368983957219,
+    "AUC": 0.9391711229946523
+  },
+  "record_level_leaky": {
+    "BA": 0.9759358288770054,
+    "AUC": 0.9980520972593583
+  },
+  "check2": {
+    "AOPC_shap": 0.263931623931624,
+    "AOPC_random": 0.1342291666666667,
+    "drop_by_k_shap": {
+      "1": 0.23169871794871794,
+      "2": 0.26131410256410265,
+      "3": 0.2987820512820513
+    },
+    "drop_by_k_random": {
+      "1": 0.057003205128205114,
+      "2": 0.12645352564102566,
+      "3": 0.21923076923076928
+    }
+  },
+  "check3": {
+    "noise_rho": 0.9410256410256411,
+    "seeds_group_rho": 1.0,
+    "seeds_participant_rho": 0.9658119658119658,
+    "seeds_feature_level_group_rho": 0.8613431889085083
+  },
+  "check4": {
+    "participant_rho": 0.905128205128205,
+    "group_rho": 1.0,
+    "feature_level_group_rho": 0.2367006144964579
+  },
+  "check5": {
+    "mean_share": {
+      "upper_limb": 0.1401,
+      "lower_limb": 0.1193,
+      "trunk_head": 0.0728,
+      "whole_body": 0.6678
+    },
+    "mean_share_TD": {
+      "upper_limb": 0.1471,
+      "lower_limb": 0.1255,
+      "trunk_head": 0.0774,
+      "whole_body": 0.65
+    },
+    "mean_share_ASD": {
+      "upper_limb": 0.1347,
+      "lower_limb": 0.1145,
+      "trunk_head": 0.0692,
+      "whole_body": 0.6816
+    },
+    "size_normalized_share": {
+      "upper_limb": 0.1224,
+      "lower_limb": 0.1979,
+      "trunk_head": 0.3019,
+      "whole_body": 0.3778
+    },
+    "ASD_vs_TD_q": {
+      "upper_limb": 0.4348,
+      "lower_limb": 0.0954,
+      "trunk_head": 0.1219,
+      "whole_body": 0.0954
+    },
+    "upper_share_subgroup": 0.1319465573948951,
+    "upper_share_other_ASD": 0.13810966578939546,
+    "subgroup_p": 0.8116372566163885
+  },
+  "verdicts": {
+    "1_validity": true,
+    "2_faithfulness": false,
+    "3a_noise": true,
+    "3b_retraining": true,
+    "4_sanity": false,
+    "5b_discrimination": false
+  },
+  "release_gate": "Withhold"
+}

@@ -1,0 +1,104 @@
+{
+  "n_children_test": 100,
+  "domains": [
+    "upper_limb",
+    "lower_limb",
+    "trunk_head",
+    "whole_body"
+  ],
+  "domain_sizes": [
+    342,
+    180,
+    72,
+    528
+  ],
+  "check1": {
+    "BA": 0.88,
+    "AUC": 0.9396,
+    "perm_chance": 0.49196444757948393,
+    "perm_p": 0.009900990099009901
+  },
+  "baseline_age_sex": {
+    "BA": 0.63,
+    "AUC": 0.6612,
+    "perm_chance": 0.49431824114186945,
+    "perm_p": 0.0297029702970297
+  },
+  "baseline_geometry_only": {
+    "BA": 0.88,
+    "AUC": 0.9608
+  },
+  "record_level_leaky": {
+    "BA": 0.975,
+    "AUC": 0.99828125
+  },
+  "check2": {
+    "AOPC_shap": 0.2752083333333334,
+    "AOPC_random": 0.13973708333333332,
+    "drop_by_k_shap": {
+      "1": 0.24090000000000003,
+      "2": 0.27515000000000006,
+      "3": 0.30957500000000004
+    },
+    "drop_by_k_random": {
+      "1": 0.06610500000000001,
+      "2": 0.1301575,
+      "3": 0.22294874999999997
+    }
+  },
+  "check3": {
+    "noise_rho": 0.926,
+    "seeds_group_rho": 1.0,
+    "seeds_participant_rho": 0.976,
+    "seeds_feature_level_group_rho": 0.8546179841124273
+  },
+  "check4": {
+    "participant_rho": 0.888,
+    "group_rho": 1.0,
+    "feature_level_group_rho": 0.3142191697901987
+  },
+  "check5": {
+    "mean_share": {
+      "upper_limb": 0.1385,
+      "lower_limb": 0.1248,
+      "trunk_head": 0.0597,
+      "whole_body": 0.6771
+    },
+    "mean_share_TD": {
+      "upper_limb": 0.1475,
+      "lower_limb": 0.1316,
+      "trunk_head": 0.0642,
+      "whole_body": 0.6568
+    },
+    "mean_share_ASD": {
+      "upper_limb": 0.1296,
+      "lower_limb": 0.118,
+      "trunk_head": 0.0551,
+      "whole_body": 0.6973
+    },
+    "size_normalized_share": {
+      "upper_limb": 0.1262,
+      "lower_limb": 0.216,
+      "trunk_head": 0.2582,
+      "whole_body": 0.3996
+    },
+    "ASD_vs_TD_q": {
+      "upper_limb": 0.0987,
+      "lower_limb": 0.0259,
+      "trunk_head": 0.0381,
+      "whole_body": 0.0085
+    },
+    "upper_share_subgroup": 0.11020217014715103,
+    "upper_share_other_ASD": 0.1505633505233637,
+    "subgroup_p": 0.9993452691685202
+  },
+  "verdicts": {
+    "1_validity": true,
+    "2_faithfulness": false,
+    "3a_noise": true,
+    "3b_retraining": true,
+    "4_sanity": false,
+    "5b_discrimination": false
+  },
+  "release_gate": "Withhold"
+}
