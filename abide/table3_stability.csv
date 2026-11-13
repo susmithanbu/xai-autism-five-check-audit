@@ -1,0 +1,6 @@
+Test,Spearman rho
+Across random seeds (group level),0.543
+Across random seeds (subject level),0.291
+Input noise (0.05 SD),0.997
+Randomised-model sanity check (lower is better),0.470
+Agreement IG vs attention rollout,0.195

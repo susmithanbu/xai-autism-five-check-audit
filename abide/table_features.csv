@@ -1,0 +1,30 @@
+Feature,Domain,Available n,Spearman rho with CSS
+ADI_R_SOCIAL_TOTAL_A,Social interaction (ADI-R A),156,0.155
+ADI_R_VERBAL_TOTAL_BV,Communication (ADI-R B),156,0.06
+ADI_RRB_TOTAL_C,Repetitive behaviour (ADI-R C),156,0.049
+FIQ,Cognitive ability (IQ),156,-0.11
+VIQ,Cognitive ability (IQ),156,-0.052
+PIQ,Cognitive ability (IQ),156,0.006
+AGE_AT_SCAN,Age and sex,156,0.001
+SEX,Age and sex,156,-0.066
+FC_defa_defa,Brain networks (rs-fMRI),156,-0.122
+FC_defa_fron,Brain networks (rs-fMRI),156,-0.133
+FC_defa_cing,Brain networks (rs-fMRI),156,-0.065
+FC_defa_sens,Brain networks (rs-fMRI),156,-0.05
+FC_defa_occi,Brain networks (rs-fMRI),156,-0.084
+FC_defa_cere,Brain networks (rs-fMRI),156,-0.012
+FC_fron_fron,Brain networks (rs-fMRI),156,-0.08
+FC_fron_cing,Brain networks (rs-fMRI),156,-0.102
+FC_fron_sens,Brain networks (rs-fMRI),156,-0.098
+FC_fron_occi,Brain networks (rs-fMRI),156,-0.069
+FC_fron_cere,Brain networks (rs-fMRI),156,0.026
+FC_cing_cing,Brain networks (rs-fMRI),156,-0.072
+FC_cing_sens,Brain networks (rs-fMRI),156,-0.073
+FC_cing_occi,Brain networks (rs-fMRI),156,-0.081
+FC_cing_cere,Brain networks (rs-fMRI),156,-0.02
+FC_sens_sens,Brain networks (rs-fMRI),156,-0.148
+FC_sens_occi,Brain networks (rs-fMRI),156,-0.168
+FC_sens_cere,Brain networks (rs-fMRI),156,-0.012
+FC_occi_occi,Brain networks (rs-fMRI),156,-0.033
+FC_occi_cere,Brain networks (rs-fMRI),156,-0.132
+FC_cere_cere,Brain networks (rs-fMRI),156,-0.038

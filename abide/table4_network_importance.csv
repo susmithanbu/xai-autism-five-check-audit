@@ -1,0 +1,7 @@
+Network,Mild (%),Moderate (%),Severe (%),All (%),q (FDR)
+Default mode,18.0,17.8,17.8,17.8,0.905
+Fronto-parietal,17.5,17.3,17.1,17.2,0.506
+Cingulo-opercular,16.6,16.8,16.5,16.7,0.506
+Sensorimotor,16.3,16.6,16.7,16.6,0.506
+Occipital (visual),15.8,15.7,16.1,15.9,0.506
+Cerebellar,15.8,15.7,15.8,15.8,0.905

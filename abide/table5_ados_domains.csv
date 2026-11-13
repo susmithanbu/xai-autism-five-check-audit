@@ -1,0 +1,7 @@
+Network,rho_SA,p_SA,rho_RRB,p_RRB,q_SA,q_RRB
+Default mode,-0.049,0.523,0.04,0.601,0.785,0.864
+Fronto-parietal,-0.206,0.006,-0.025,0.744,0.038,0.864
+Cingulo-opercular,-0.008,0.917,0.028,0.716,0.917,0.864
+Sensorimotor,0.136,0.072,0.013,0.864,0.216,0.864
+Occipital (visual),0.01,0.895,0.058,0.442,0.917,0.864
+Cerebellar,0.1,0.187,-0.058,0.442,0.374,0.864

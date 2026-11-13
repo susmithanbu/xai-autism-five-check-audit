@@ -1,0 +1,6 @@
+Test,Spearman rho
+Input noise (0.05 SD),0.961
+"Across seeds, group level",0.833
+"Across seeds, participant level",0.638
+"Label-randomised model, participant level (lower is better)",0.487
+"Label-randomised model, group level (lower is better)",0.900
